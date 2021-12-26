@@ -45,7 +45,7 @@ PS: I/O will be automatically handled.
 ```
 >The codeitself is very self explanatory. So I am leaving it that way. IF you still have any doubt, then don't hesitate to contact me on my [instagram](https://www.instagram.com/_nilu343/).
 
-## For the purpose of Copy-Paste
+## For those who just want to Copy-Paste
 ```
 #include <iostream>
 #include <cstdio>
