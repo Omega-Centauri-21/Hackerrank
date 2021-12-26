@@ -44,3 +44,37 @@ PS: I/O will be automatically handled.
 6
 ```
 >The codeitself is very self explanatory. So I am leaving it that way. IF you still have any doubt, then don't hesitate to contact me on my [instagram](https://www.instagram.com/_nilu343/).
+
+## For the purpose of Copy-Paste
+```
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+/*
+Add `int max_of_four(int a, int b, int c, int d)` here.
+
+*/
+int max_of_four(int a, int b, int c, int d){
+    int max;
+    if (a > b && a > c && a > d){
+        max = a;
+    }else if (b > c && b > d){
+        max = b;
+    }else if ( c > d){
+        max = c;
+    }else { 
+        max = d;
+        }
+    return max;
+}
+
+int main() {
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d", ans);
+    
+    return 0;
+}
+```
