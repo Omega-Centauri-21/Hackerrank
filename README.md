@@ -1,6 +1,6 @@
 # Hackerrank
 
-This repo. will consist solutions of the Hackerrank challenges 
+This repo. will consist solutions for the Hackerrank challenges 
 
 # Content List
 - **[Python](https://github.com/Omega-Centauri-21/Hackerrank/tree/main/Python)**
